@@ -28,9 +28,8 @@ Nested function have access to variables outside it scope. Whatever variables th
 For example, `summation(4)` should return 10 because 1+2+3+4 is 10. Note, you may use a for loop for this function if you wish */
 
 function summation(number) {
-  /*
-  
-  */
+  let sum = (number * (number + 1)) / 2;
+  return sum;
 }
 
 // 🦁🦁🦁 Topic 2: ADVANCED Array Methods 🦁🦁🦁
@@ -105,8 +104,10 @@ const zooAnimals = [
   displayNames will be an array of strings, and each string should follow this pattern: "name: {name}, scientific: {scientific name}"
   */
 
-function animalNames(/*Your Code Here*/) {
-  /*Your Code Here*/
+function animalNames() {
+  /*
+  
+  */
 }
 
 /* 🦁🦁🦁 Request 2: .map() 🦁🦁🦁
