@@ -121,9 +121,15 @@ function animalNames() {
   For example: ['jackal, asiatic', .....]
   */
 
-function lowerCaseNames(/*Your Code Here*/) {
-  /*Your Code Here*/
+function lowerCaseNames() {
+  let lowercase = [];
+  zooAnimals.map(function (item) {
+    lowercase.push(item.animal_name.toLowerCase());
+  });
+  return lowercase;
 }
+
+// console.log(lowerCaseNames());
 
 /* 🦁🦁🦁 Request 3: .filter() 🦁🦁🦁
   The zoo is concerned about animals with a lower population count. 
